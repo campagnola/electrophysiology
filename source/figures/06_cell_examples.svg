@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48+devel r"
+   sodipodi:docname="06_cell_examples.svg"
+   inkscape:export-filename="C:\Documents and Settings\Luke\My Documents\2012_electrophys_chapter\figures\Final\Figure_06_cell_examples.png"
+   inkscape:export-xdpi="1200"
+   inkscape:export-ydpi="1200">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="131.80588"
+     inkscape:cy="793.03101"
+     inkscape:document-units="px"
+     inkscape:current-layer="g2999"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1132"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2999"
+       transform="translate(-87.142857,-368.57143)">
+      <image
+         sodipodi:absref="/home/luke/work/manis_lab/2012_ephys_chapter/figures/photos/goodbad_cells3.png"
+         xlink:href="photos/goodbad_cells3.png"
+         y="422.14789"
+         x="142"
+         id="image5884"
+         height="429"
+         width="436"
+         inkscape:export-filename="/home/luke/work/2012_electrophys_chapter/figures/cell_examples.png"
+         inkscape:export-xdpi="103.21"
+         inkscape:export-ydpi="103.21" />
+      <path
+         inkscape:export-ydpi="103.21"
+         inkscape:export-xdpi="103.21"
+         inkscape:export-filename="/home/luke/work/2012_electrophys_chapter/figures/cell_examples.png"
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.50000001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:transform-center-y="0.091960275"
+         d="m 448.94723,597.46667 9.68229,-3.09848 3.09848,-9.68229 13.33253,26.1133 z"
+         id="path6662"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:transform-center-x="-0.091960044" />
+      <path
+         inkscape:export-ydpi="103.21"
+         inkscape:export-xdpi="103.21"
+         inkscape:export-filename="/home/luke/work/2012_electrophys_chapter/figures/cell_examples.png"
+         style="fill:#787878;fill-opacity:1;stroke:#ffffff;stroke-width:0.60000002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:transform-center-y="0.091960275"
+         d="m 489.95298,484.6859 3.09848,9.68229 9.68229,3.09848 -26.1133,13.33253 z"
+         id="path6666"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:transform-center-x="0.091959956" />
+      <path
+         inkscape:export-ydpi="103.21"
+         inkscape:export-xdpi="103.21"
+         inkscape:export-filename="/home/luke/work/2012_electrophys_chapter/figures/cell_examples.png"
+         inkscape:transform-center-x="-0.091960044"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path6668"
+         d="m 442.51866,722.46667 9.68229,-3.09848 3.09848,-9.68229 13.33253,26.1133 z"
+         inkscape:transform-center-y="0.091960275"
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.50000001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="103.21"
+         inkscape:export-xdpi="103.21"
+         inkscape:export-filename="/home/luke/work/2012_electrophys_chapter/figures/cell_examples.png"
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.50000001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:transform-center-y="0.091960275"
+         d="m 179.66152,670.32381 9.68229,-3.09848 3.09848,-9.68229 13.33253,26.1133 z"
+         id="path6670"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:transform-center-x="-0.091960044" />
+      <path
+         inkscape:export-ydpi="103.21"
+         inkscape:export-xdpi="103.21"
+         inkscape:export-filename="/home/luke/work/2012_electrophys_chapter/figures/cell_examples.png"
+         inkscape:transform-center-x="-0.091960044"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path6672"
+         d="m 282.51866,603.18095 9.68229,-3.09848 3.09848,-9.68229 13.33253,26.1133 z"
+         inkscape:transform-center-y="0.091960275"
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.50000001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="103.21"
+         inkscape:export-xdpi="103.21"
+         inkscape:export-filename="/home/luke/work/2012_electrophys_chapter/figures/cell_examples.png"
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.50000001;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:transform-center-y="0.091960275"
+         d="m 204.66152,498.89524 9.68229,-3.09848 3.09848,-9.68229 13.33253,26.1133 z"
+         id="path6674"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:transform-center-x="-0.091960044" />
+      <path
+         inkscape:export-ydpi="103.21"
+         inkscape:export-xdpi="103.21"
+         inkscape:export-filename="/home/luke/work/2012_electrophys_chapter/figures/cell_examples.png"
+         inkscape:transform-center-x="0.091959956"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path6676"
+         d="m 408.52441,435.40019 3.09848,9.68229 9.68229,3.09848 -26.1133,13.33253 z"
+         inkscape:transform-center-y="0.091960275"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="103.21"
+         inkscape:export-xdpi="103.21"
+         inkscape:export-filename="/home/luke/work/2012_electrophys_chapter/figures/cell_examples.png"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         inkscape:transform-center-y="0.091960275"
+         d="m 399.95298,681.11448 3.09848,9.68229 9.68229,3.09848 -26.1133,13.33253 z"
+         id="path6678"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         inkscape:transform-center-x="0.091959956" />
+      <g
+         inkscape:export-ydpi="103.21"
+         inkscape:export-xdpi="103.21"
+         inkscape:export-filename="/home/luke/work/2012_electrophys_chapter/figures/cell_examples.png"
+         style="stroke-linecap:square;stroke-linejoin:round"
+         transform="matrix(1.4305502,0,0,1.4305502,-82.377142,482.24336)"
+         id="g13904">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:4.52623034;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 166.38102,244.97322 52.86508,0"
+           id="path13874"
+           inkscape:connector-curvature="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:11.19999981px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           x="174.94441"
+           y="237.58986"
+           id="text13876"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan13878"
+             x="174.94441"
+             y="237.58986">20 μm</tspan></text>
+      </g>
+      <g
+         id="g10588"
+         transform="matrix(1.4305502,0,0,1.4305502,-81.619527,481.48574)"
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1"
+         inkscape:export-filename="/home/luke/work/2012_electrophys_chapter/figures/cell_examples.png"
+         inkscape:export-xdpi="103.21"
+         inkscape:export-ydpi="103.21">
+        <path
+           inkscape:connector-curvature="0"
+           id="path10590"
+           d="m 166.38102,244.97322 52.86508,0"
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4.52623034;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text10592"
+           y="237.58986"
+           x="174.94441"
+           style="font-size:11.19999981px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           xml:space="preserve"><tspan
+             y="237.58986"
+             x="174.94441"
+             id="tspan10594"
+             sodipodi:role="line">20 μm</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
