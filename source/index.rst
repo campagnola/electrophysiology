@@ -22,6 +22,7 @@ Contents:
     troubleshooting
     faq
     appendices
+    references
 
 
 Indices and tables
