@@ -7,7 +7,6 @@ A typical patch clamp recording setup is shown in :ref:`figure 2 <fig-recording-
 
 .. figure:: figures/rendered/02_recording_chamber.png
     :target: figures/rendered/02_recording_chamber_lg.png
-    :figwidth: 75%
 
     **Figure 2.** A minimal patch electrophysiology rig. Left to right: Oxygenated ACSF is siphoned through a fluid heater and into the recording chamber where it continuously washes over the brain slice. Fluid is then aspirated out of the recording chamber and into a waste flask. A patch clamp amplifier headstage is mounted to a micromanipulator and holds the patch pipette, which currently impales the brain slice (detailed in :ref:`figure 3 <fig-recording-chamber2>`). The headstage ouput is amplified, digitized, and finally recorded on a computer.
 
@@ -15,7 +14,6 @@ A typical patch clamp recording setup is shown in :ref:`figure 2 <fig-recording-
 
 .. figure:: figures/rendered/03_recording_chamber2.png
     :target: figures/rendered/03_recording_chamber2_lg.png
-    :figwidth: 50%
 
     **Figure 3.** Patch recording equipment. A) 63x ceramic, water-immersion objective. B) Silver chloride wire connected to headstage ground output. C) Heated aluminum holder for recording chamber. D) Plastic recording chamber with glass coverslip on the bottom. E) Brain slice bathed in warm, oxygenated ACSF. F) Glass patch pipette filled with electrode solution. G) Electrode holder. H) AgCl electrode wire. This wire fits inside the patch pipette and makes electrical contact with the electrode solution as well as the I) gold pin which conducts electrode potential into the amplifier headstage. J) Pressure control tube. This allows the experimenter to increase or decrease the pressure inside the patch pipette. K) amplifier headstage.
 

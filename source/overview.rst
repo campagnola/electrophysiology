@@ -10,7 +10,6 @@ By applying suction to the patch pipette, the membrane is ruptured, granting ele
 
 .. figure:: figures/rendered/01_cell_schematic.png
     :target: figures/rendered/01_cell_schematic_lg.png
-    :figwidth: 50%
 
     **Figure 1.** Schematic of glass electrode patched onto cell with equivalent circuit diagram. |Vp|: Voltage inside pipette; this is the voltage controlled or measured by the amplifier, less the electrochemical junction potential. |Cp|: Pipette capacitance; typically a few picofarads. |Rs|: Series (or access) resistance; this is the resistance separating the pipette from the cell body and is due mainly to the narrow pipette tip and organelles that may be blocking it. |Rseal|: Seal resistance; the resistance of the region of contact between the pipette and the membrane. To make quality recordings, this must be > 1 GΩ. |Vm|: Membrane voltage; the voltage of the interior of the neuron relative to the bath. |Cm|: Cell membrane capacitance. |Rm|: Cell membrane resistance; also called input resistance. |Vb|: Bath voltage, as measured by the ground electrode.
     

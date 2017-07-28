@@ -1,20 +1,25 @@
 #!/usr/bin/python
 import os, glob
 path = os.path.dirname(__file__)
-export_path = os.path.join(path, 'rendered')
-if not os.path.isdir(export_path):
-    os.mkdir(export_path)
+lowres_export_path = os.path.join(path, 'rendered')
+
+# the long path here is to compensate for sphinx html_extra_path behavior
+hires_export_path = os.path.join(path, 'hires', 'figures', 'rendered')
+
+for p in (hires_export_path, lowres_export_path):
+    if not os.path.isdir(p):
+        os.makedirs(p)
 
 order = glob.glob(os.path.join(path, '*.svg'))
 order.sort()
 
-images = []
 for svg in order:
     png = os.path.splitext(svg)[0] + '.png'
-    png = os.path.join(export_path, os.path.split(png)[1]) 
+    png = os.path.join(lowres_export_path, os.path.split(png)[1]) 
+    
     png_lg = os.path.splitext(svg)[0] + '_lg.png'
-    png_lg = os.path.join(export_path, os.path.split(png_lg)[1]) 
-    images.append(png)
+    png_lg = os.path.join(hires_export_path, os.path.split(png_lg)[1])
+    
     if os.path.exists(png) and os.stat(png).st_mtime >= os.stat(svg).st_mtime:
         print "Skipping:", png
     else:

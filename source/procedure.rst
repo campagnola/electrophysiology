@@ -30,7 +30,6 @@ Standard patch clamp electrodes are made from borosilicate glass pipettes which 
 
 .. figure:: figures/rendered/04_pipette.png
     :target: figures/rendered/04_pipette_lg.png
-    :figwidth: 50%
 
     Ideal patch pipette shape. The pipette is pulled in multiple stages. The first stage is a long, narrow pull which thins the tip to help it fit under the objective. The following stages produce a rapid taper (about 15°) to reduce resistance and end with a 1.5μm tip.
 
@@ -50,7 +49,6 @@ Filling the pipette with electrode solution is also an important step and one wh
 
 .. figure:: figures/rendered/05_fillers.png
     :target: figures/rendered/05_fillers_lg.png
-    :figwidth: 50%
 
     **Figure 5.** Making patch pipette fillers from disposable pipette tips. A) Heating a 100 μm disposable pipette tip over a small flame. The tip should be rotated to produce even heating and care should be taken to avoid burning the plastic. B) As soon as the tip has melted through, remove it from the heat and pull into a thin tube (this takes some practice). Cut the tube with a sharp blade to avoid crushing it. C) Filler made from tip of pipette inserted into 1 ml syringe. D) Filler made from base of pipette attached to 1 ml syringe and a low-volume, 0.2 μm-pore syringe filter.
 
@@ -100,7 +98,6 @@ You are finally ready to patch a cell. The first task, then, is to find a cell t
 
 .. figure:: figures/rendered/06_cell_examples.png
     :target: figures/rendered/06_cell_examples_lg.png
-    :figwidth: 50%
 
     **Figure 6.** Neuron examples in a cortical brain slice under gradient illumination. Black arrows indicate unhealthy or dead cells, white arrows indicate healthy cells, and a grey arrow indicates a borderline cell. (This figure is a composite of multiple images from different regions of a slice.)
 
@@ -136,7 +133,6 @@ At this point, adjust the amplifier's pipette offset (this is described in the m
 
 .. figure:: figures/rendered/07_patch_examples1.png
     :target: figures/rendered/07_patch_examples1_lg.png
-    :figwidth: 50%
 
     **Figure 7.** Voltage-clamp recording from cell-attached pipette before (dashed line) and after (solid line) adjusting the pipette capacitance compensation. The seal resistance has increased to 1.6 GΩ. A) Photo of patch pipette in bath. B) Voltage clamp command and current recording from patch pipette in bath. The voltage clamp requires 2.4 nA of current to effect a 10 mV pulse, indicating a pipette resistance of 4.2 MΩ.
 
@@ -161,7 +157,6 @@ When the pipette tip is within 10 μm or so of the target cell, correct the ampl
 
 .. figure:: figures/rendered/08_patching.png
     :target: figures/rendered/08_patching_lg.png
-    :figwidth: 50%
 
     **Figure 8.** Patch procedure. A) Approach the cell with positive pressure in the pipette. The surface of the cell should form a visible dimple. B) Release pressure on pipette, then apply gentle suction to seal the membrane against the pipette. This is the cell-attached configuration. C) Apply sharp suction to the pipette to rupture the membrane, granting electrical access to the cell interior. This is the whole-cell configuration. D) From whole-cell, pull the pipette very gently away from the cell until E) the membrane separates and re-closes. This is the outside-out configuration.
 
@@ -169,7 +164,6 @@ When the pipette tip is within 10 μm or so of the target cell, correct the ampl
 
 .. figure:: figures/rendered/09_patch_examples2.png
     :target: figures/rendered/09_patch_examples2_lg.png
-    :figwidth: 50%
 
     **Figure 9.** Left: A 'dimpled' cell immediately before being patched. Right: voltage-clamp recording shortly after releasing pipette pressure. The resistance at the pipette tip has increased to 66MΩ.
 
@@ -181,7 +175,6 @@ The membrane that has adhered to the pipette tip may spontaneously rupture, so i
 
 .. figure:: figures/rendered/10_patch_examples3.png
     :target: figures/rendered/10_patch_examples3_lg.png
-    :figwidth: 50%
 
     **Figure 10.** Voltage-clamp recording from cell-attached pipette before (dashed line) and after (solid line) adjusting the pipette capacitance compensation. The seal resistance has increased to 1.6 GΩ.
 
@@ -201,7 +194,6 @@ When whole-cell access is obtained, the membrane current trace will consist of a
 
 .. figure:: figures/rendered/11_patch_examples4.png
     :target: figures/rendered/11_patch_examples4_lg.png
-    :figwidth: 50%
 
     **Figure 11.** A) Whole-cell patched neuron filled with fluorescent dye. B) Voltage-clamp recording from the same neuron. The steady-state current is about 80 pA, indicating an input resistance of 125 MΩ. The peak of the charging transient is 900 pA past the steady-state, indicating an access resistance of 11 MΩ.
 
