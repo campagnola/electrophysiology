@@ -6,7 +6,7 @@ electrophysiology in brain slices. It was originally published by Oxford
 University Press as a chapter in [*Basic Electrophysiological Methods*, Covey
 et al, 2015](https://global.oup.com/academic/product/basic-electrophysiological-methods-9780199939800?cc=us&lang=en&).
 
-This document can be accessed online at [http://electrophysiology.readthedocs.org].
+This document can be accessed online at [http://campagnola.github.io/electrophysiology].
 
 Contributions welcome!
 
