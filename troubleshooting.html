@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Troubleshooting &mdash; Slice Electrophysiology 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Slice Electrophysiology 1.0 documentation" href="index.html" />
+    <link rel="next" title="Frequently Asked Questions" href="faq.html" />
+    <link rel="prev" title="Experimental Procedure" href="procedure.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="faq.html" title="Frequently Asked Questions"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="procedure.html" title="Experimental Procedure"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Slice Electrophysiology 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="troubleshooting">
+<h1>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="slice-viability">
+<h2>Slice viability<a class="headerlink" href="#slice-viability" title="Permalink to this headline">¶</a></h2>
+<p>Difficulty keeping sliced brain tissue alive is one of the most common problems in slice electrophysiology. The reasons for this are not well understood, and the remedies are often highly specific to each brain region. However, many of the rules for producing viable slices are common across all brain regions:</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Reduce ischemia:</dt>
+<dd><ul class="first last simple">
+<li>Become faster at dissection and slicing</li>
+<li>Make sure you are using a well-oxygenated dissection buffer.</li>
+<li>Try doing the preparation at different temperatures (cooling or warming the tissue during dissection and slicing).</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Reduce excitotoxicity:</dt>
+<dd><ul class="first last simple">
+<li>Use NMDG / sucrose solutions - reducing Na+ may reduce action potential firing, and minimize synaptic release. It may also reduce energy demands.</li>
+<li>Cut in high Mg2+ / low Ca2+ solutions.</li>
+<li>Try cooling to reduce activity.</li>
+<li>Check the pH and osmolarity of all solutions:</li>
+<li>pH should be 7.2-7.4 for all solutions. If needed, supplement buffers with HEPES to help control pH.</li>
+<li>Reduce bicarbonate to 20 mM in cases where CO2 content of gas tank may be low.</li>
+<li>Osmolarity should be about 290mOsm for electrode solution and 310 for ACSF. Reduce evaporation, or add sucrose to make osmolarity appropriate.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Reduce mechanical trauma:</dt>
+<dd><ul class="first last simple">
+<li>Try different blades for slicing.</li>
+<li>Cut slower if the tissue is not cutting (sticking to blade, rolling, or compressing).</li>
+<li>Cut faster if possible.</li>
+<li>Check blade angle—the blade should be pointed roughly 10 degrees downward, such that the bottom tapered edge of the blade is horizontal.</li>
+<li>Try a slice orientation that severs fewer or only smaller processes. For example, some neurons are mostly planar, and survive better when the slice is parallel to the main plane of the dendritic tree.</li>
+<li>Use more care during dissection. Do not touch the region you wish to study, avoid compressing or shocking the tissue. Do not expose the tissue to air any longer than absolutely necessary.</li>
+<li>Cut any cranial nerves before removing the brain from the skull, as the tension from stretching these may damage some areas of the brain.</li>
+<li>Some slicers impart a small amount of vertical vibration to the blade and may need to be tuned to avoid this.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Use younger animals; these cells tend to be much more resilient.</p>
+</li>
+<li><p class="first">Look in the literature for proven protocols (for your brain region), and talk to people using those regions.</p>
+</li>
+<li><p class="first">Be systematic: start with something that works, and change one variable at a time.</p>
+</li>
+<li><p class="first">Look deeper into the slice (may require illumination adjustment).</p>
+</li>
+<li><p class="first">Wait at least 1hr after cutting before starting any recordings.</p>
+</li>
+</ul>
+<p>Because slice preparation and patch clamp have a steep learning curve, we suggest starting with a simple experiment to be sure that you have a handle on how to make everything work together. Start out with younger animals (P10-P14 for rats or mice), and just try to perform current clamp experiments on cells. Once you can regularly get cells with good spike heights and resting potentials, then it is time to advance to your project. Be persistent and expect to spend weeks to months becoming proficient with these techniques.</p>
+</div>
+<div class="section" id="electrical-noise">
+<h2>Electrical noise<a class="headerlink" href="#electrical-noise" title="Permalink to this headline">¶</a></h2>
+<p>Noise is common in electrophysiology equipment, and the noise both contaminates the recordings and in some cases can mask signals. There are five primary sources of noise. 1. Line noise. This appears as 50 or 60Hz, often with harmonics (integer multiples of 50/60Hz), and can come from several sources including unshielded power cords, overhead lights, and incorrect grounding practices. 2. Power supply noise. This is typically also at harmonics of 50 or 60 Hz, and may result from power supplies that are not working correctly, poorly designed or incorrectly grounded. For example, switching power supplies are convenient because they are small and light, and do not require heavy transformers or large filter capacitors. However, they can generate wideband noise anywhere from 15 kHz to many MHz and this noise may become aliased into the recorded signals. 3. Electrochemical junction noise. This appears as an unstable, fluctuating noise on a time scale of milliseconds to seconds. It may be caused by salt solution that is spilled, for example near the chamber, that creates a battery between dissimilar metals, or that bridges different ground connections. 4. Digital equipment noise. Computers, some modern computer-controlled amplifiers, microprocessor-based devices, and digital and analog cameras have high frequency clocks or oscillators that are often not properly electrically isolated from ground circuits, and the signals can get into the ground system. Because these are high frequency (sometimes in the MHz range), they can be hard to troubleshoot, and may require particular attention. We have found that even top-of-the-line electrophysiology amplifiers can “leak” such signals into the rig and cause problems. 5. Ground loop noise. These are noises caused by currents that circulate in the ground system of the rig, through cables and the various grounds associated with the equipment.</p>
+<p>To minimize noise, one must first start by stripping the rig down to just the amplifier, the microscope, and the computer. This means disconnecting all cables at both ends, and turning off (and unplugging) all other equipment. Remove anything from the vicinity of the microscope that is not being used. Unconnected or dangling cables should be stowed. The microscope body should be grounded to the table, and the table grounded to the Faraday cage, with at least 1/4” wide stranded wire strapping of as short a length as practical. All connections should be made using screws and toothed washers, and all surfaces that are to be bonded should have exposed metal at the point of contact (sand off any paint or oxidation). Place a small amount of saline in the recording chamber, and a filled pipette on the headstage. Monitor the output of the amplifier with an oscilloscope. We also find that using a spectrum analyzer (or spectrum calculated from digitized data) is extremely helpful in identifying noise sources and eliminating them. The amplifier headstage should only be connected to the electrode, and the high quality signal ground (usually located on the amplifier headstage) should be connected only to the reference electrode in the bath. In some cases, it is worthwhile to either leave the electrode floating in the air above the recording bath, or to patch a ball of Sylgard® in the recording chamber (essentially, making a high-impedance seal; under these conditions, small currents are more easily detected). The amplifier itself may have a separate ground connection (on the back) and this can be used as the reference (ground) for the Faraday cage, table and microscope (and the equipment rack if one is used). With the amplifier filters open (&gt;50 kHz bandwidth), re-examine the noise levels and try to identify and correct noise from any additional sources.</p>
+<p>Items that are connected to the microscope can also cause problems, and should be addressed next. Any ungrounded conductive objects in proximity to the recording chamber may act as an antenna, which picks up electromagnetic radiation, and couple it capacitively into the recording area. This may include micromanipulators, parts (or all) of the microscope, and the experimenter&#8217;s body. While some microscopes have a specific ground point that can be used, many parts of the microscope are not bonded electrically to this point, and are therefore ungrounded. This often occurs because items are painted or anodized, or because they are separated by a thin layer of grease. Items attached through couplers, such as cameras, should not be considered to be grounded, and may need a separate grounding strap. Anything on the stage that is anodized (or is on an anodized stage) will not be well grounded, and may need a separate connection.</p>
+<p>After eliminating sources of capacitively coupled noise, begin adding the other equipment to the setup one piece at a time, evaluating the noise at each stage, both with the equipment connected and off, and with it turned on. Often this will identify an offending item, which might need to be moved, or might need additional attention for grounding.</p>
+<p>Ground loop noise can be difficult to eliminate. Ground loops occur when there is more than one path for current to flow between two points in a system. This can occur through shielded cables that connect two pieces of equipment which otherwise share a ground connection with each other. There are also common-mode currents that may flow on a shared signal or ground path that may contribute to interference. There are several treatises on this problem in the professional audio literature (for example, Waldron, Web Resource). There are two points with regards to small rigs. First, maintain as best as possible a “star” ground configuration for all equipment. In a star configuration, there is one central reference point, and all common connections go to that point. While this topology minimizes the chances of creating ground loops between different pieces of equipment, it is not always practical.  Second, keep the headstage and its reference input completely separate from the rest of the system grounds (remember also that the interior of the recording chamber and any connecting fluid compartments must be completely electrically insulated from the rest of the system). Third, consider the signal paths associated with connecting cables between equipment items. In some cases, it may be useful to isolate the ground side of the connection in a signal cable, but this is not always recommended. Not all manufacturers follow the same rules for signal grounding in their equipment, and this can cause interesting problems. Sometimes, even short “ground” leads can pick up radiated signals and introduce additional noise. It should never be necessary to disconnect (“lift”) the safety electrical ground in a piece of modern equipment if the manufacturer has arranged this correctly (e.g., connected to the equipment case, and separate from the signal ground paths). In some cases, where signals &gt;100 kHz are problematic, the use of toroidal cores or ferrite chokes around the connecting cables may be helpful. The size and permeability of the core or choke should be commensurate with the frequency of the signal to be blocked. Sometimes signals from nearby AM or FM radio stations, hospital dispatchers, or even a cell phone or tablet computer in the vicinity of the rig, can introduce unwanted energy onto the cables around a rig and add noise. Remember that some of these devices have a wireless connection that operates in the 2-5 gigahertz range, where wavelengths are short, and even a short ground strap or a stray wire can operate as a receptive antenna at these frequencies.</p>
+<p>A day spent disassembling and reassembling a rig while monitoring the noise levels can be very helpful both in terms of understanding how the rig is configured, and in terms of understanding the various sources of noise in and around the rig. One must take a very systematic approach and try to keep the rig as “clean” both physically and electrically as possible, only then will you be rewarded with a low-noise setup whose data traces will make you proud. Regular maintenance, including cleaning the rig and checking the noise level, and maintaining a log of noise measurements under a fixed set of conditions, is also advisable.</p>
+<p>As mentioned earlier, another source of noise that sometimes appears is caused by salt spills (even evaporated spills with just salts in a humid environment). If the salt is in a location that can add currents through a ground loop, or create a loop, it can act like an unstable battery. An example is salt bridges between the recording chamber and the metal platform that holds the chamber. Here, the salt creates an unstable resistance possibly with an electrochemical potential between the high-quality ground used in the recording bath (connected to the headstage) and a general ground used for reduction of capacitive noise pickup. For this reason, amongst others, it is important to clean up all spills immediately. It is also important to take apart and clean any items that may get salt inside them (e.g., microscope, substage condensers, translation stages, manipulators) as soon as possible after a spill. Spills should be carefully cleaned up with water, followed by 70% alcohol, and wiped dry. If spills happen frequently, some items may need to be treated with a thin layer of grease or a rust preventative.</p>
+<p>When troubleshooting noise, remember also that the tubing used to bring solutions to the preparation and to remove the solution contain a conductive solution that can also be capacitively coupled to other noise sources. Sometimes shielding the tubing, or changing its placement, can help. Peristaltic pumps can also introduce noise through the fluid delivery system, and should be avoided when possible. However, peristaltic pumps are sometimes needed when using expensive or limited chemicals in a recirculating bath.</p>
+</div>
+<div class="section" id="vibration">
+<h2>Vibration<a class="headerlink" href="#vibration" title="Permalink to this headline">¶</a></h2>
+<p>Vibration isolation tables are designed to dampen vibrations that commonly occur in buildings, usually in a low-frequency range that depends on the size of the table. If the electrode is vibrating under the microscope, then there may be a mechanical connection that is essentially short-circuiting the isolation table. Anything that goes on or off the table can contribute to this. Whenever possible, use cables that are flexible to bring signals to and from devices on the table, and clamp (or tape) the cables to the edge of the table where they leave. Allow the cables to hang (do not make them tight) so that vibration from other non-isolated instruments and racks is less-well coupled to the table. Devices with fans, such as some high-performance CCD cameras, can also contribute to vibration, especially if they are mounted at the top of the microscope. In extreme cases it may be necessary to replace the fans, manually balance them, or find a way to mechanically uncouple the camera from the microscope.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Troubleshooting</a><ul>
+<li><a class="reference internal" href="#slice-viability">Slice viability</a></li>
+<li><a class="reference internal" href="#electrical-noise">Electrical noise</a></li>
+<li><a class="reference internal" href="#vibration">Vibration</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="procedure.html"
+                        title="previous chapter">Experimental Procedure</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="faq.html"
+                        title="next chapter">Frequently Asked Questions</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/troubleshooting.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="faq.html" title="Frequently Asked Questions"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="procedure.html" title="Experimental Procedure"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Slice Electrophysiology 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2014, Luke Campagnola, Paul B. Manis.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.6.
+    </div>
+  </body>
+</html>
