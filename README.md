@@ -9,3 +9,11 @@ et al, 2015](https://global.oup.com/academic/product/basic-electrophysiological-
 This document can be accessed online at [http://electrophysiology.readthedocs.org].
 
 Contributions welcome!
+
+
+Build Requirements:
+
+* sphinx
+* sphinx-rtd-theme
+* inkscape (to render svg->png)
+
