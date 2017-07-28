@@ -1,4 +1,39 @@
 This is the github-pages branch used to publish the build files generated from the master branch.
 
-see: http://daler.github.io/sphinxdoc-test/includeme.html
+I worked from these instructions: http://daler.github.io/sphinxdoc-test/includeme.html
 
+Initial setup:
+- cd build
+- rm -rf html
+- git clone https://github.com/campagnola/electrophysiology html
+- cd html
+- git checkout --orphan gh-pages
+- git rm -rf * .gitignore
+- (add README file)
+- git add README
+- git commit -m "Initial commit"
+- cd ../../
+- make html
+- cd build/html
+- git add * .buildinfo
+- git commit -m "initial build"
+
+- touch .nojekyll
+- git add .nojekyll
+- git commit -m "Add .nojekyll"
+
+- git push origin gh-pages
+
+
+If you wanted to update the gh-pages branch:
+
+- git clone https://github.com/campagnola/electrophysiology
+- cd electrophysiology
+- mkdir build 
+- cd build
+- git clone --branch gh-pages https://github.com/campagnola/electrophysiology html
+- cd ..
+- make html
+- cd build/html
+- git commit -a
+- git push origin gh-pages
